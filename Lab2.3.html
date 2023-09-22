@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="baongoai">
+    <header>
+        <img src="logo.jpg" alt="">
+        <hr>
+    </header>
+    <nav>
+        <a href="">Trang Chủ</a>
+        <a href="">HTML5 Cơ Bản</a>
+        <a href="">HTML5 Nâng Cao</a>
+        <a href="">Kỹ Thuật HTML5</a>
+        <a href="">Tin Tức HTML5</a>
+        <a href="">Đăng Ký</a>
+        <a href="">Đăng Nhập</a>
+        <a href="">Liên Hệ</a>
+    </nav>
+    <main>
+        <section class="col-8">
+            <p class="tieude">
+                Chào mừng bạn đến với tạp chí HTML5&CSS3
+            </p>
+
+            <form action="/action_page.php" onsubmit="return validateForm()" method="post">
+                <div class="former" style="text-align: center ;">
+
+                    <label for="">
+                        Tên Đăng Nhập
+                    </label>
+                    <input type="text"> <br>
+                    
+                    <label for="">
+                        Mật Khẩu:
+                    </label> 
+                    <input type="password"> <br>
+                    
+                    
+                    <label for="">
+                        Email:
+                    </label> 
+                    <input type="email"> <br>
+                    
+                    
+                    <label for="">
+                        Thành Phố
+                    </label> 
+                    <input list="city"> <br>
+                    <datalist id="city">
+                        <option value="Hà Nội " checked>
+                        <option value="Hồ Chí Minh ">
+                        <option value="Hưng Yên "> 
+                        <option value="Nha Trang "> 
+                        <option value="Sóc Trăng">  
+                    </datalist>
+
+                    <label for=""> Độ tuổi trung bình</label>
+                    <input type="range" min="18 " max="45" value="20">
+                </div>    
+                <p>
+                    Bạn muốn theo dõi bài viết nào
+                </p>  
+                <div class="choose">
+                    <label for="">
+                        <input type="checkbox" checked>HTML5 Cơ Bản
+                    </label>
+
+                    <label for="">
+                        <input type="checkbox" > CSS3 Cơ Bản
+                    </label> <br>
+
+                    <label for="">
+                        <input type="checkbox" >HTML5 Nâng Cao
+                    </label>
+
+                    <label for="">
+                        <input type="checkbox" >CSS3 Nâng Cao
+                    </label><br>
+
+                </div>
+                <input type="reset" value="Nhập Lại">
+                <input type="submit" value="Đăng Ký">
+            </form>
+            <p class="tieude">
+                Thành phần HTML5
+            </p>
+            <img src="banner.jpg" alt="" class="banner">
+        </section>
+        <aside class="col-4">
+            <img src="aside.jpg" alt="">
+        </aside>
+    </main>
+<footer>
+    <p>
+            Đây là trang web phục vụ việc học của sinh viên FPT Polytechnic
+            Nghiêm cấm sử dụng với mục đích thương mại
+    </p>
+</footer>
+</div>
+</body>
+
+</html>
